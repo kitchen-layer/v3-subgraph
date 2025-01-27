@@ -148,6 +148,7 @@ export function handlePoolCreatedHelper(
   pool.volumeToken1 = ZERO_BD
   pool.volumeUSD = ZERO_BD
   pool.feesUSD = ZERO_BD
+  pool.isKitchen = event.params.isKitchen
   pool.untrackedVolumeUSD = ZERO_BD
 
   pool.collectedFeesToken0 = ZERO_BD
